@@ -1,0 +1,229 @@
+/* CSS du site */
+
+body
+{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	width: 900px;
+    margin: auto;
+	color: black;
+}
+
+em{
+	font-weight: bold;
+}
+
+strong
+{
+	display: block;
+	color: rgb(180,40,10);
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+/* Header */
+
+h1, h2, nav, aside h1{
+
+font-family :'architects_daughterregular';
+}
+
+aside h2  {
+font-family: 'jenna_sueregular';
+font-size : 30px;
+}
+
+
+header h1, header h2
+{
+	display : none;
+}
+
+header a, header nav, header nav ul li
+{
+	display: inline-block;
+}
+
+
+#banniere
+{
+    margin-top: 15px;
+	width:900px;
+    height: 50px;
+    border-radius: 5px;
+    background: url('images/logoTST.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	border:1px solid black;
+}
+
+#credits{
+text-align: center;
+}
+
+nav
+{
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
+    height: 50px;
+	text-align: right;
+    padding-top: 12px;
+    padding-left: 4px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+	font-size: 20px;
+    color: rgb(8,86,125);
+}
+
+
+nav li{
+
+	padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: underline;
+   color:rgb(8,86,125);
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: rgb(180,40,10);
+}
+
+article, aside, aside ul li
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+	width: 870px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+    border-radius: 5px;
+    background: rgb(238,255,255);
+    box-shadow: 0px 4px 4px #1c1a19;
+	padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+	color: rgb(8,86,125) ;
+	border:1px solid black;
+}
+
+
+.date, .words{
+	font-style: italic;
+	font-size : small;
+}
+
+.words{
+	text-align: right;
+}
+
+aside{
+	margin-top: 5px;
+    width: 218px;
+    
+    background: rgb(180,40,10);
+    position: right;
+    box-shadow: 0px 4px 4px #1c1a19;
+	padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	color: white;
+	border-radius: 5px;
+	border:1px solid black;
+}
+
+.message, article ul {
+	line-height: 2em;
+	}
+	
+
+article h1{
+margin-bottom:0px;
+}
+
+#connectform {
+   position:center; 
+}
+
+#connectformtab{
+ margin-left: 300px;
+}
+
+article .entete img{
+	float: left;
+	width: 60px;
+	height:60px;
+	border: 1px solid rgb(8,86,125);
+	margin-right: 5px;
+}
+
+#connectformtab input {
+ border:1px solid rgb(8,86,125);
+ border-radius:5px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+ 
+
+#debut{
+text-align: center;
+margin-top: 100px;
+}
+
+#fin{
+text-align: center;
+margin-top: 0px;
+position: relative;
+top: -30px;
+}
+
+#hdp{ text-align:left;} /*<p id="hdp"><a href="#">Haut de page</a></p> */
+
+footer a{
+color: white;
+}
+
+
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('fonts/ArchitectsDaughter[1]-webfont.eot');
+    src: url('fonts/ArchitectsDaughter[1]-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ArchitectsDaughter[1]-webfont.woff2') format('woff2'),
+         url('fonts/ArchitectsDaughter[1]-webfont.woff') format('woff'),
+         url('fonts/ArchitectsDaughter[1]-webfont.ttf') format('truetype'),
+         url('fonts/ArchitectsDaughter[1]-webfont.svg#architects_daughterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('fonts/JennaSue[1]-webfont.eot');
+    src: url('fonts/JennaSue[1]-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/JennaSue[1]-webfont.woff2') format('woff2'),
+         url('fonts/JennaSue[1]-webfont.woff') format('woff'),
+         url('fonts/JennaSue[1]-webfont.ttf') format('truetype'),
+         url('fonts/JennaSue[1]-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
