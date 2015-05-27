@@ -6,13 +6,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" href="style.css" />
 	
-        <title>SI14 - Connexion </title>
+        <title>SI14 - Connection </title>
     </head>
 	
 	<body>
 	<article>
 	
-			<h1> Formulaire de connexion </h1>
+			<h1> Please connect to enter the conversation </h1>
 			
 			<form method="post" action="conversation.php">
 			
@@ -28,7 +28,7 @@
 					<TD> <input type="password" name="mdp"/> </TD> 
 				</TR> 
 			</TABLE> 
-			<input type="submit" value="Se connecter"/>
+			<input type="submit" value="Enter the chat"/>
 			</form> 
 			
 	</article>
